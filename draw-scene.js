@@ -40,7 +40,7 @@ function drawScene(gl, programInfo, buffers) {
   // Tell WebGL how to pull out the positions from the position
   // buffer into the vertexPosition attribute.
   setPositionAttribute(gl, buffers, programInfo);
-setColorAttribute(gl, buffers, programInfo);
+
 
   // Tell WebGL to use our program when drawing
   gl.useProgram(programInfo.program);
